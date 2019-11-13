@@ -28,7 +28,7 @@ public class Dice {
   public String getType() {
     return type;
   }
-
+ //This will pass the object as a parameter and run each objects getType method to compare the results.  .equals must be used to compare Strings not ==.
   public boolean sameType(Dice n) {
     if (this.getType().equals(n.getType()))
       return true;
